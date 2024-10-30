@@ -1,0 +1,1630 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Merchr Customisation\n"
+"POT-Creation-Date: 2023-04-10 18:54+0100\n"
+"PO-Revision-Date: 2022-04-10 17:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: merchr.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: hub/includes/MerchrHubActions.php:47
+msgid ""
+"Sorry something went wrong, your session may have expired, refresh the "
+"page and try again!"
+msgstr ""
+
+#: hub/includes/MerchrHubActions.php:55
+msgid "You must be logged in to access this feature!"
+msgstr ""
+
+#: hub/includes/MerchrHubActions.php:61
+msgid "You need administration privileges to access this feature!"
+msgstr ""
+
+#: hub/includes/MerchrHubActivator.php:60
+msgid "click here to install WooCommerce"
+msgstr ""
+
+#: hub/includes/MerchrHubActivator.php:62
+#, php-format
+msgid "WooCommerce is required for the Merchr Plug-in, %s"
+msgstr ""
+
+#: hub/includes/MerchrHubActivator.php:63
+msgid "WooCommerce Plugin has NOT been activated: "
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminActions.php:73
+msgid "The API key is required!"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminActions.php:103
+msgid "Please select the store to proceed!"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminActionsSetupProcesses.php:84
+msgid "Please enter your API key."
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminActionsSetupProcesses.php:101
+#: hub/includes/actions/MerchrHubAdminActionsSetupProcesses.php:197
+msgid "Oops, something went wrong, check your API key and try again."
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminActionsSetupProcesses.php:169
+msgid "All fields are required to create a new account."
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminActionsSetupProcesses.php:181
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminActionsSetupProcesses.php:188
+msgid "Please ensure the password is at least 8 characters in length."
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminOrders.php:387
+msgid "Something went wrong, refresh the page and try again!"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminOrders.php:407
+msgid "Queued"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminOrders.php:859
+msgid "Order has been successfully pushed to the Merchr Hub."
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminOrders.php:892
+msgid "completed"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminOrders.php:902
+msgid "Order status changed to completed via Merchr order status request."
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminOrders.php:910
+msgid "cancelled"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminOrders.php:920
+msgid "Order status changed to cancelled via Merchr order status request."
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminOrders.php:929
+msgid "processing"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminOrders.php:939
+msgid "Order status changed to processing via Merchr order status request."
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:58
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:59
+msgid "No products have been selected!"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:68
+msgid "Sorry something went wrong, please try again."
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:73
+msgid "The products have been successfully queued for import!"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:75
+msgid ""
+"Your products will now be imported in the background, you are free to use "
+"the site while this is happening."
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:81
+msgid "Product Import Successfully Queued!"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:82
+msgid "Congratulations!"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:84
+msgid "View your store..."
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:85
+msgid "Manage Your Products..."
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:762
+msgid "Merchr User"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:775
+msgid "Merchr Products Successfully Imported!"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:779
+msgid "Click here to view your store!"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:781
+msgid "Or click here to login to your store"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:782
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:790
+msgid "Your website"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:785
+msgid "Merchr Products Failed to be Imported!"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminProductImporter.php:789
+msgid "Click here to login and import your products"
+msgstr ""
+
+#: hub/includes/actions/MerchrHubAdminSettings.php:75
+msgid "The settings have been saved successfully"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminContent.php:83
+msgid "Want to design your own products?"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminContent.php:84
+msgid "Click the button below and login to the Merchr Hub . "
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminContent.php:85
+msgid "Design on the Merchr Hub!"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminContent.php:92
+#: hub/includes/content/MerchrHubAdminContent.php:93
+#: hub/includes/content/MerchrHubAdminContent.php:117
+#: hub/includes/content/MerchrHubAdminContent.php:118
+#: hub/includes/content/MerchrHubAdminContent.php:136
+#: hub/includes/content/MerchrHubAdminContent.php:137
+#: hub/includes/content/MerchrHubAdminDashboardContent.php:55
+#: hub/includes/content/MerchrHubAdminDashboardContent.php:56
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:45
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:46
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:75
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:76
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:96
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:97
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:132
+msgid "Merchr Hub and Personalisation"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminContent.php:103
+msgid "Merchr Hub Products"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminContent.php:124
+msgid "Merchr Hub Orders"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminContent.php:143
+msgid "Merchr Hub Settings"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminDashboardContent.php:40
+msgid "Merchr Hub Dashboard"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminDashboardContent.php:57
+#, php-format
+msgid "Congratulations <span>%s</span> and welcome to the Merchr Experience!"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminDashboardContent.php:58
+msgid ""
+"The first part of your journey is to connect your store to the Merchr "
+"Personalisation Hub, click the button below to take this first step."
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminDashboardContent.php:60
+#: hub/includes/content/MerchrHubAdminDashboardContent.php:61
+msgid "Start here"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminDashboardContent.php:64
+msgid "Connect Your Store"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:47
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:77
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:98
+#, php-format
+msgid "Welcome <strong>%s</strong>..."
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:48
+msgid "Merchr Products"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:50
+msgid "Merchr Orders"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:54
+msgid "Failed Orders"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:57
+msgid "Re-send Orders!"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:59
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:60
+msgid "Manage Merchr"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:78
+msgid "WooCommerce is required!"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:80
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:81
+msgid "Install WooCommerce"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:99
+msgid "Start your journey"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:101
+#: hub/includes/content/MerchrHubAdminDashboardWidgetContent.php:102
+msgid "Setup Merchr Here"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminOrdersPage.php:69
+msgid "Your Order ID"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminOrdersPage.php:70
+msgid "Merchr Order ID"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminOrdersPage.php:71
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:144
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:97
+msgid "Status"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminOrdersPage.php:72
+msgid "Date"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminOrdersPage.php:73
+msgid "Total"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminOrdersPage.php:74
+msgid "Notes"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminOrdersPage.php:75
+msgid "View"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminOrdersPage.php:76
+msgid "Actions"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminOrdersPage.php:106
+msgid "Resend Order"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminOrdersPage.php:117
+msgid "New"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminOrdersPage.php:128
+msgid "View Order"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminOrdersPage.php:154
+msgid "You have not received any orders... Yet!"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:73
+msgid "Select your store here..."
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:89
+msgid "You have more than 1 store!"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:90
+msgid "Select the store you wish to connect too below."
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:93
+msgid "Select your store here"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:96
+#: hub/includes/content/MerchrHubAdminProductsPages.php:97
+msgid "Proceed to Products"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:437
+#: hub/includes/content/MerchrHubAdminProductsPages.php:509
+msgid "SELECT"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:438
+#: hub/includes/content/MerchrHubAdminProductsPages.php:510
+msgid "EDIT"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:439
+#: hub/includes/content/MerchrHubAdminProductsPages.php:511
+msgid "DESELECT"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:440
+#: hub/includes/content/MerchrHubAdminProductsPages.php:512
+msgid "IMPORTED!"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:441
+#: hub/includes/content/MerchrHubAdminProductsPages.php:513
+msgid "IMPORTING!"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:449
+#: hub/includes/content/MerchrHubAdminProductsPages.php:521
+msgid "Save Changes"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:450
+#: hub/includes/content/MerchrHubAdminProductsPages.php:522
+msgid "Product Name"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:451
+#: hub/includes/content/MerchrHubAdminProductsPages.php:523
+msgid "Product Description"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:452
+#: hub/includes/content/MerchrHubAdminProductsPages.php:524
+msgid "Your Selling Price"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:453
+#: hub/includes/content/MerchrHubAdminProductsPages.php:525
+msgid "RRP"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:454
+#: hub/includes/content/MerchrHubAdminProductsPages.php:526
+msgid "Your Cost"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:455
+#: hub/includes/content/MerchrHubAdminProductsPages.php:527
+msgid "Your Markup"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:456
+#: hub/includes/content/MerchrHubAdminProductsPages.php:528
+msgid "Your Markup %"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:457
+#: hub/includes/content/MerchrHubAdminProductsPages.php:529
+msgid "Click to accept negative profit"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:550
+msgid "Your Store Products"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:551
+msgid "All Merchr Products"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:556
+msgid "Reset Filter"
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:616
+msgid "Filter by category..."
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:617
+msgid "Filter by collection..."
+msgstr ""
+
+#: hub/includes/content/MerchrHubAdminProductsPages.php:618
+msgid "Filter by industry..."
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:33
+msgid "Already have an API Key?"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:34
+msgid "Enter your API key below and press connect to get started."
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:35
+msgid "Enter API key here..."
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:36
+msgid "Enter API key here"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:37
+#: hub/includes/data/MerchrHubAdminFormsData.php:38
+msgid "Connect"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:39
+msgid ""
+"Don't have an API key?<br><strong>Click here</strong> to create an account."
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:42
+msgid "Create an account here!"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:43
+msgid ""
+"Fill out the form below to create an account on the Merchr Hub and get "
+"started."
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:44
+msgid "Enter your full name here..."
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:45
+msgid "Enter your full name here"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:46
+msgid "Enter your email here..."
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:47
+msgid "Enter your email here"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:48
+msgid "Enter your password here..."
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:49
+msgid "Enter your password here"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:50
+msgid "Enter your store name here..."
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:51
+msgid "Enter your store name here"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:52
+msgid "Enter your store URL here..."
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:53
+msgid "Enter your store URL here"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:54
+msgid "Enter your store email here..."
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:55
+msgid "Enter your store email here"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:56
+msgid "Select your store logo here..."
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:57
+msgid "Select your store logo here"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:62
+#: hub/includes/data/MerchrHubAdminFormsData.php:63
+msgid "Create Account"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:64
+msgid ""
+"Have an API key?<br><strong>Click here</strong> here to enter your key."
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:84
+#: hub/includes/data/MerchrHubAdminFormsData.php:88
+#: hub/includes/data/MerchrHubAdminFormsData.php:95
+#: hub/includes/data/MerchrHubAdminFormsData.php:99
+msgid "No"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:85
+#: hub/includes/data/MerchrHubAdminFormsData.php:87
+#: hub/includes/data/MerchrHubAdminFormsData.php:96
+#: hub/includes/data/MerchrHubAdminFormsData.php:98
+msgid "Yes"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:105
+msgid "Full"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:106
+msgid "Short"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:107
+msgid "Both"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:125
+msgid "Update the Merchr Hub Plugin Setting"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:126
+#: hub/includes/data/MerchrHubAdminFormsData.php:127
+msgid "Enter a new API key here, otherwise leave blank"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:128
+msgid ""
+"If you have retrieved a new API Key from the Merchr Hub, enter it here. "
+"Only do this if your store has lost connection with the Merchr Hub"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:129
+msgid "Remove Data on Uninstall?"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:130
+msgid ""
+"Select if you wish the plugin to remove all saved data on uninstall, this "
+"process is not reversible."
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:132
+msgid "Prices include tax?"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:133
+msgid ""
+"Select if the prices entered for the products on this store include or "
+"exclude tax."
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:135
+msgid "Product Description Location"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:136
+msgid ""
+"When importing our products select if the description is added to the "
+"main, short or both description areas in WooCommerce"
+msgstr ""
+
+#: hub/includes/data/MerchrHubAdminFormsData.php:138
+#: hub/includes/data/MerchrHubAdminFormsData.php:139
+msgid "Save Settings"
+msgstr ""
+
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:55
+msgid "Sorry something went wrong, please try again! (AJAX)"
+msgstr ""
+
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:56
+msgid "The fields highlighted in red are required!"
+msgstr ""
+
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:57
+msgid "Please wait..."
+msgstr ""
+
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:58
+msgid "You must accept the negative profit to save the changes!"
+msgstr ""
+
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:60
+msgid "The product import failed, please contact us!"
+msgstr ""
+
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:61
+msgid "The order has been successfully re-scheduled to send to Merchr!"
+msgstr ""
+
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:62
+msgid "The order failed to be re-scheduled, please contact us!"
+msgstr ""
+
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:76
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:77
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:86
+msgid "Merchr Hub"
+msgstr ""
+
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:86
+msgid "Start Here"
+msgstr ""
+
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:87
+msgid "Products"
+msgstr ""
+
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:88
+msgid "Orders"
+msgstr ""
+
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:89
+msgid "Settings"
+msgstr ""
+
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:90
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:21
+msgid "Customisation"
+msgstr ""
+
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:104
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:107
+msgid "Merchr Needs WooCommerce"
+msgstr ""
+
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:113
+#: hub/includes/hooks/MerchrHubAdminHooksProcesses.php:116
+msgid "Setup Merchr"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ActionFactory.php:161
+msgid "Invalid action - must be a recurring action."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:60
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:75
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:76
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:89
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:19
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:30
+msgid "Scheduled Actions"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:127
+msgid "About"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:129
+#, php-format
+msgid "About Action Scheduler %s"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:131
+msgid ""
+"Action Scheduler is a scalable, traceable job queue for background "
+"processing large sets of actions. Action Scheduler works by triggering an "
+"action hook to run at some time in the future. Scheduled actions can also "
+"be scheduled to run on a recurring schedule."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:139
+msgid "Columns"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:141
+msgid "Scheduled Action Columns"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:143
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:96
+msgid "Hook"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:143
+msgid "Name of the action hook that will be triggered."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:144
+msgid "Action statuses are Pending, Complete, Canceled, Failed"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:145
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:98
+msgid "Arguments"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:145
+msgid "Optional data array passed to the action hook."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:146
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:99
+msgid "Group"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:146
+msgid "Optional action group."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:147
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:100
+msgid "Recurrence"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:147
+msgid "The action's schedule frequency."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:148
+msgid "Scheduled"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:148
+msgid "The date/time the action is/was scheduled to run."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:149
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:102
+msgid "Log"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:149
+msgid "Activity log for the action."
+msgstr ""
+
+#. translators: %d: amount of time
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_DataController.php:133
+#, php-format
+msgid "Stopped the insanity for %d second"
+msgid_plural "Stopped the insanity for %d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_DataController.php:137
+msgid "Attempting to reduce used memory..."
+msgstr ""
+
+#. translators: 1: action ID 2: schedule
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_InvalidActionException.php:21
+#, php-format
+msgid "Action [%1$s] has an invalid schedule: %2$s"
+msgstr ""
+
+#. translators: 1: action ID 2: arguments
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_InvalidActionException.php:40
+#, php-format
+msgid ""
+"Action [%1$s] has invalid arguments. It cannot be JSON decoded to an "
+"array. $args = %2$s"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:92
+msgid "Delete"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:101
+msgid "Scheduled Date"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:122
+msgid "Claim ID"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:129
+msgid "Run"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:130
+msgid "Process the action now as if it were run as part of a queue"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:133
+msgid "Cancel"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:134
+msgid "Cancel the action now to avoid it being run in future"
+msgstr ""
+
+#. translators: %s: amount of time
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:144
+#, php-format
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: amount of time
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:149
+#, php-format
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: amount of time
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:154
+#, php-format
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: amount of time
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:159
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: amount of time
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:164
+#, php-format
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: amount of time
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:169
+#, php-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: amount of time
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:174
+#, php-format
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:224
+msgid "Now!"
+msgstr ""
+
+#. translators: %s: time interval
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:260
+#, php-format
+msgid "Every %s"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:266
+msgid "Non-repeating"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:364
+msgid ""
+"It appears one or more database tables were missing. Attempting to re-"
+"create the missing table(s)."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:381
+#, php-format
+msgid ""
+"Maximum simultaneous queues already in progress (%s queue). No additional "
+"queues will begin processing until the current queues are complete."
+msgid_plural ""
+"Maximum simultaneous queues already in progress (%s queues). No additional "
+"queues will begin processing until the current queues are complete."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: process URL
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:397
+#, php-format
+msgid ""
+"A new queue has begun processing. <a href=\"%s\">View actions in-progress "
+"&raquo;</a>"
+msgstr ""
+
+#. translators: %d: seconds
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:400
+#, php-format
+msgid "The next queue will begin processing in approximately %d seconds."
+msgstr ""
+
+#. translators: %s: action HTML
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:421
+#, php-format
+msgid "Successfully executed action: %s"
+msgstr ""
+
+#. translators: %s: action HTML
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:425
+#, php-format
+msgid "Successfully canceled action: %s"
+msgstr ""
+
+#. translators: %s: action HTML
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:429
+#, php-format
+msgid "Successfully processed change for action: %s"
+msgstr ""
+
+#. translators: 1: action HTML 2: action ID 3: error message
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:435
+#, php-format
+msgid "Could not process change for action: \"%1$s\" (ID: %2$d). Error: %3$s"
+msgstr ""
+
+#. translators: %s: date interval
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:481
+#, php-format
+msgid " (%s ago)"
+msgstr ""
+
+#. translators: %s: date interval
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:484
+#, php-format
+msgid " (%s)"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:634
+msgid "Search hook, args and claim ID"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php:192
+msgid "Every minute"
+msgstr ""
+
+#. translators: %s: date interval
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:103
+#, php-format
+msgid "This data will be deleted in %s."
+msgstr ""
+
+#. translators: 1: next cleanup message 2: github issue URL
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:108
+#, php-format
+msgid ""
+"Action Scheduler has migrated data to custom tables; however, orphaned log "
+"entries exist in the WordPress Comments table. %1$s <a href=\"%2$s\">Learn "
+"more &raquo;</a>"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
+msgid "Action Scheduler"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
+msgid "This section shows details of Action Scheduler."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:114
+msgid "Version:"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:118
+msgid "Data store:"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:122
+msgid "Action Status"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:124
+msgid "Count"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:125
+msgid "Oldest Scheduled Date"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:126
+msgid "Newest Scheduled Date"
+msgstr ""
+
+#. translators: %s php class name
+#: hub/vendor/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:33
+#: hub/vendor/woocommerce/action-scheduler/classes/WP_CLI/ProgressBar.php:47
+#, php-format
+msgid "The %s class can only be run within WP CLI."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:59
+msgid ""
+"There are too many concurrent batches, but the run is forced to continue."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:61
+msgid "There are too many concurrent batches."
+msgstr ""
+
+#. translators: %d: amount of actions
+#: hub/vendor/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:93
+#, php-format
+msgid "Running %d action"
+msgid_plural "Running %d actions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:113
+msgid "The claim has been lost. Aborting current batch."
+msgstr ""
+
+#. translators: %s refers to the action ID
+#: hub/vendor/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:138
+#, php-format
+msgid "Started processing action %s"
+msgstr ""
+
+#. translators: 1: action ID 2: hook name
+#: hub/vendor/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:155
+#, php-format
+msgid "Completed processing action %1$s with hook: %2$s"
+msgstr ""
+
+#. translators: 1: action ID 2: exception message
+#: hub/vendor/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:170
+#, php-format
+msgid "Error processing action %1$s: %2$s"
+msgstr ""
+
+#. translators: %s refers to the schema name
+#: hub/vendor/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:30
+#, php-format
+msgid "Registered schema for %s"
+msgstr ""
+
+#. translators: %d refers to how many scheduled taks were found to run
+#: hub/vendor/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:130
+#, php-format
+msgid "Found %d scheduled task"
+msgid_plural "Found %d scheduled tasks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d refers to the total number of batches executed
+#: hub/vendor/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:147
+#, php-format
+msgid "%d batch executed."
+msgid_plural "%d batches executed."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s refers to the exception error message
+#: hub/vendor/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:166
+#, php-format
+msgid "There was an error running the action scheduler: %s"
+msgstr ""
+
+#. translators: %d refers to the total number of taskes completed
+#: hub/vendor/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:183
+#, php-format
+msgid "%d scheduled task completed."
+msgid_plural "%d scheduled tasks completed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php:195
+#, php-format
+msgid ""
+"%s() was called before the Action Scheduler data store was initialized"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:523
+msgid "Filter"
+msgstr ""
+
+#. translators: %s: search query
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:650
+#, php-format
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:755
+msgid "Search"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:72
+msgid "action created"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:76
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:142
+msgid "action canceled"
+msgstr ""
+
+#. translators: %s: context
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:82
+#, php-format
+msgid "action started via %s"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:84
+msgid "action started"
+msgstr ""
+
+#. translators: %s: context
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:92
+#, php-format
+msgid "action complete via %s"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:94
+msgid "action complete"
+msgstr ""
+
+#. translators: 1: context 2: exception message
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:102
+#, php-format
+msgid "action failed via %1$s: %2$s"
+msgstr ""
+
+#. translators: %s: exception message
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:105
+#, php-format
+msgid "action failed: %s"
+msgstr ""
+
+#. translators: %s: amount of time
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:112
+#, php-format
+msgid ""
+"action marked as failed after %s seconds. Unknown error occurred. Check "
+"server, PHP and database error logs to diagnose cause."
+msgstr ""
+
+#. translators: 1: error message 2: filename 3: line
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:118
+#, php-format
+msgid "unexpected shutdown: PHP Fatal error %1$s in %2$s on line %3$s"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:123
+msgid "action reset"
+msgstr ""
+
+#. translators: %s: context
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:129
+#, php-format
+msgid "action ignored via %s"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:131
+msgid "action ignored"
+msgstr ""
+
+#. translators: %s: exception message
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:146
+#, php-format
+msgid "There was a failure fetching this action: %s"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:148
+msgid "There was a failure fetching this action"
+msgstr ""
+
+#. translators: %s: exception message
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:156
+#, php-format
+msgid "There was a failure scheduling the next instance of this action: %s"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:301
+#, php-format
+msgid ""
+"ActionScheduler_Action::$args too long. To ensure the args column can be "
+"indexed, action args should not be more than %d characters when encoded as "
+"JSON."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:377
+msgid "Complete"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:378
+msgid "Pending"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:379
+msgid "In-progress"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:380
+msgid "Failed"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:381
+msgid "Canceled"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:78
+msgid "Database error."
+msgstr ""
+
+#. translators: %s: error message
+#. translators: %s: action error message
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:86
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:49
+#: hub/vendor/woocommerce/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+#, php-format
+msgid "Error saving action: %s"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:246
+msgid "Invalid value for select or count parameter. Cannot query actions."
+msgstr ""
+
+#. translators: %s: action ID
+#. translators: %s is the action ID
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:451
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:543
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:574
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:797
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:840
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:515
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:534
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:564
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:974
+#, php-format
+msgid "Unidentified action %s"
+msgstr ""
+
+#. translators: %s: group name
+#. translators: %s is the group name
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:663
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:717
+#, php-format
+msgid "The group \"%s\" does not exist."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:683
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:696
+msgid "Unable to claim actions. Database error."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:870
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:904
+msgid "Invalid action ID. No status found."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:872
+msgid "Unknown status found for action."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:101
+msgid "Unable to save action."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:318
+msgid "Invalid schedule. Cannot save action."
+msgstr ""
+
+#. translators: %s: claim ID
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:824
+#, php-format
+msgid "Unable to unlock claim %s. Database error."
+msgstr ""
+
+#. translators: %s: action ID
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:852
+#, php-format
+msgid "Unable to unlock claim on action %s. Database error."
+msgstr ""
+
+#. translators: %s: action ID
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:878
+#, php-format
+msgid "Unable to mark failure on action %s. Database error."
+msgstr ""
+
+#. translators: %s is the error message
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:1055
+#, php-format
+msgid ""
+"%s Support for strings longer than this will be removed in a future "
+"version."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:36
+msgctxt "post"
+msgid "Failed"
+msgstr ""
+
+#. translators: %s: count
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:38
+#, php-format
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:51
+msgctxt "post"
+msgid "In-Progress"
+msgstr ""
+
+#. translators: %s: count
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:53
+#, php-format
+msgid "In-Progress <span class=\"count\">(%s)</span>"
+msgid_plural "In-Progress <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:20
+msgid "Scheduled actions are hooks triggered on a cetain date and time."
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:31
+msgid "Scheduled Action"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:32
+msgctxt "Admin menu name"
+msgid "Scheduled Actions"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+msgid "Add"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
+msgid "Add New Scheduled Action"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+msgid "Edit"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Edit Scheduled Action"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+msgid "New Scheduled Action"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "View Action"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+msgid "Search Scheduled Actions"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+msgid "No actions found"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+msgid "No actions found in trash"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:14
+msgid "Action Group"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/migration/ActionMigrator.php:95
+#, php-format
+msgid "Unable to remove source migrated action %s"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/migration/Config.php:52
+msgid "Source store must be configured before running a migration"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/migration/Config.php:74
+msgid "Source logger must be configured before running a migration"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/migration/Config.php:96
+msgid "Destination store must be configured before running a migration"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/migration/Config.php:118
+msgid "Destination logger must be configured before running a migration"
+msgstr ""
+
+#: hub/vendor/woocommerce/action-scheduler/classes/migration/Controller.php:162
+msgid ""
+"Action Scheduler migration in progress. The list of scheduled actions may "
+"be incomplete."
+msgstr ""
+
+#. translators: %d: amount of actions
+#: hub/vendor/woocommerce/action-scheduler/classes/migration/Runner.php:82
+#, php-format
+msgid "Migrating %d action"
+msgid_plural "Migrating %d actions"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: source action ID 2: source store class 3: destination action ID 4: destination store class
+#: hub/vendor/woocommerce/action-scheduler/classes/migration/Runner.php:107
+#, php-format
+msgid "Migrated action with ID %1$d in %2$s to ID %3$d in %4$s"
+msgstr ""
+
+#. translators: %s is the name of the hook to be cancelled.
+#: hub/vendor/woocommerce/action-scheduler/functions.php:128
+#, php-format
+msgid "Caught exception while cancelling action: %s"
+msgstr ""
+
+#: inc/MerchrCust/Content/ProductDataTab.php:17
+msgid "Information"
+msgstr ""
+
+#: inc/MerchrCust/Content/ProductDataTab.php:50
+msgid "Leadtime"
+msgstr ""
+
+#: inc/MerchrCust/Content/ProductDataTab.php:58
+msgid "Units"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomAdminSection.php:97
+msgid "Default label"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomAdminSection.php:102
+msgid ""
+"The default label above the custom text field. This can be overridden per "
+"product."
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomAdminSection.php:107
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:362
+msgid "Default text"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomAdminSection.php:111
+msgid ""
+"The default text in the custom text field. This can be overridden per "
+"product."
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomAdminSection.php:118
+msgid "Default fallback text"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomAdminSection.php:122
+msgid "When the default text renders empty."
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomAdminSection.php:127
+msgid "Customise All Label"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomAdminSection.php:130
+msgid ""
+"The label that appears before the input field to customise all products on "
+"a page."
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomAdminSection.php:143
+#: inc/MerchrCust/Customisation/CustomAdminSection.php:144
+msgid "Public API Key"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:87
+msgid "Placement Editor Type"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:90
+msgid "None"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:91
+msgid "Simple"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:106
+msgid "Design Ratio Width"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:120
+msgid "Design Ratio Height"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:138
+msgid "Print Area Width"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:152
+msgid "Print Area Height"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:170
+msgid "Print Area Shape"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:181
+msgid "Preview Coordinates"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:188
+msgid "Personalisation Areas"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:203
+msgid "Offset Left"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:216
+msgid "Offset Top"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:229
+msgid "Width"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:242
+msgid "Height"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:325
+msgid "Font"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:334
+msgid "Text Colour"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDataTab.php:347
+msgid "Label"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductDetail.php:56
+#: inc/MerchrCust/Customisation/CustomProductDetail.php:71
+msgid "Personalise"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/CustomProductVariations.php:20
+msgid "Customisation Text Color"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/PrintTypeStatic.php:9
+msgid "Single Colour"
+msgstr ""
+
+#: inc/MerchrCust/Customisation/PrintTypeStatic.php:10
+msgid "Engrave"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Merchr Print on Demand"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Merchr Hub Print on Demand and Personalisation Plug-in."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Merchr"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://merchr.com"
+msgstr ""

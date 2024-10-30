@@ -1,0 +1,18 @@
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.col {
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	min-width: 0;
+	max-width: 100%;
+	margin-right: 15px;
+	margin-left: 15px;
+}

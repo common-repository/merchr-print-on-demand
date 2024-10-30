@@ -1,0 +1,31 @@
+:root {
+    --merchr-colour-primary: #0ca1cc;
+    --merchr-colour-secondary: #1d242c;
+	--merchr-colour-danger: #cc0000;
+	--merchr-colour-warning: #fdd003;
+	--merchr-colour-success: #008000;
+	--merchr-colour-order-new: #ddffdd;
+	--merchr-colour-order-processing: #ffc603;
+	--merchr-colour-order-failed: #ffc603;
+	--merchr-colour-order-cancelled: #ff8100;
+	--merchr-colour-order-completed: #008000;
+	--merchr-colour-yellow-gradient-start: #ffc602;
+	--merchr-colour-yellow-gradient-end: #fee34e;
+	--merchr-hover-opacity: 0.85;
+	--merchr-margin-unit-small: 5px;
+	--merchr-margin-unit-standard: 15px;
+	--merchr-margin-unit-large: 30px;
+	--merchr-margin-unit-extra-large: 60px;
+	--merchr-padding-unit-small: 5px;
+	--merchr-padding-unit-standard: 15px;
+	--merchr-padding-unit-large: 30px;
+	--merchr-padding-unit-extra-large: 60px;
+	--merchr-border-radius: 5px;
+	--merchr-box-shadow: 3px 3px 3px -1px rgba(0,0,0,0.33);
+	--merchr-box-shadow-hover: 2px 2px 2px -1px rgba(0,0,0,0.25);
+	--merchr-setup-width: 66%;
+	--merchr-setup-width-large: 50%;
+	--merchr-transition-time: 0.35s;
+	--merchr-start-gradient-angle: -45deg;
+	--merchr-start-gradient-angle-legacy: 135deg;
+}

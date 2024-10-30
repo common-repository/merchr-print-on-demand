@@ -1,0 +1,6 @@
+{
+	"require": {
+		"defuse/php-encryption": "2.3.*",
+		"woocommerce/action-scheduler": "3.4.*"
+    }
+}

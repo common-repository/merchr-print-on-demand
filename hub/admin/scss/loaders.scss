@@ -1,0 +1,201 @@
+/* Loader Styles */
+/* https://cssloaders.github.io/ */
+
+/* Main */
+.loader {
+    transform: rotateZ(45deg);
+    perspective: 1000px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    color: #1d242c;
+}
+.loader:before,
+.loader:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    transform: rotateX(70deg);
+    animation: 1s spin linear infinite;
+}
+.loader:after {
+    color: var(--merchr-colour-primary);
+    transform: rotateY(70deg);
+    animation-delay: .4s;
+}
+@keyframes rotate {
+    0% {
+        transform: translate(-50%, -50%) rotateZ(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotateZ(360deg);
+    }
+}
+@keyframes rotateccw {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        ransform: translate(-50%, -50%) rotate(-360deg);
+    }
+}
+@keyframes spin {
+    0%,
+    100% {
+        box-shadow: .2em 0px 0 0px currentcolor;
+    }
+    12% {
+        box-shadow: .2em .2em 0 0 currentcolor;
+    }
+    25% {
+        box-shadow: 0 .2em 0 0px currentcolor;
+    }
+    37% {
+        box-shadow: -.2em .2em 0 0 currentcolor;
+    }
+    50% {
+        box-shadow: -.2em 0 0 0 currentcolor;
+    }
+    62% {
+        box-shadow: -.2em -.2em 0 0 currentcolor;
+    }
+    75% {
+        box-shadow: 0px -.2em 0 0 currentcolor;
+    }
+    87% {
+        box-shadow: .2em -.2em 0 0 currentcolor;
+    }
+}
+
+/* Rocket */
+.loader-rocket {
+    width: 22px;
+    height: 90px;
+    display: inline-block;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 50% 50% 0 0;
+    border-bottom: 10px solid var(--merchr-colour-primary);
+    background-color: var(--merchr-colour-secondary);
+    background-image: linear-gradient(var(--merchr-colour-primary) 10px, transparent 0);
+    background-size: 28px 28px;
+    background-position: center 20px , center 2px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    animation: animloaderBack 1s linear infinite alternate;
+}
+.loader-rocket::before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 56px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 10px var(--merchr-colour-primary) inset;
+    top: 72px;
+}
+.loader-rocket::after {
+	content: '';  
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%) rotate(45deg);
+	width: 34px;
+	height: 34px;
+	top: 112%;
+	background: radial-gradient(ellipse at center, #ffdf00 8%, rgba(249, 62, 0, 0.6) 24%, rgba(0, 0, 0, 0) 100%);
+	border-radius: 50% 50% 0;
+	background-repeat: no-repeat;
+	background-position: -44px -44px;
+	background-size: 100px 100px;
+	box-shadow: 4px 4px 12px 0px rgba(255, 61, 0, 0.5);
+	box-sizing: border-box;
+	animation: animloader 1s linear infinite alternate;
+}
+@keyframes animloaderBack {
+  0%, 30%, 70% {
+    transform: translateY(0px);
+  }
+  20%, 40%, 100% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes animloader {
+  0% {
+    box-shadow: 4px 4px 12px 2px rgba(255, 61, 0, 0.75);
+    width: 34px;
+    height: 34px;
+    background-position: -44px -44px;
+    background-size: 100px 100px;
+  }
+  100% {
+    box-shadow: 2px 2px 8px 0px rgba(255, 61, 0, 0.5);
+    width: 30px;
+    height: 28px;
+    background-position: -36px -36px;
+    background-size: 80px 80px;
+  }
+}
+
+/* Moving Truck */
+.loader-truck {
+	position: relative;
+	width: 130px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(#0277bd, #0277bd),
+	linear-gradient(#29b6f6, #4fc3f7), linear-gradient(#29b6f6, #4fc3f7);
+	background-size: 80px 70px, 30px 50px, 30px 30px;
+	background-position: 0 0, 80px 20px, 100px 40px;
+}
+.loader-truck:after {
+	content: "";
+	position: absolute;
+	bottom: 10px;
+	left: 12px;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	border-radius: 50%;
+	box-sizing: content-box;
+	border: 10px solid #000;
+	box-shadow: 78px 0 0 -10px #fff, 78px 0 #000;
+	animation: wheelSk 0.75s ease-in infinite alternate;
+}
+.loader-truck:before {
+	content: "";
+	position: absolute;
+	right: 100%;
+	top: 0px;
+	height: 70px;
+	width: 70px;
+	background-image: linear-gradient(#fff 45px, transparent 0),
+    linear-gradient(#fff 45px, transparent 0),
+    linear-gradient(#fff 45px, transparent 0);
+	background-repeat: no-repeat;
+	background-size: 30px 4px;
+	background-position: 0px 11px, 8px 35px, 0px 60px;
+	animation: lineDropping 0.75s linear infinite;
+}
+@keyframes wheelSk {
+	0%, 50%, 100% { transform: translatey(0) }
+	30%, 90% { transform: translatey(-3px) }
+}
+@keyframes lineDropping {
+	0% {
+		background-position: 100px 11px, 115px 35px, 105px 60px;
+		opacity: 1;
+	}
+	50% { background-position: 0px 11px, 20px 35px, 5px 60px }
+	60% { background-position: -30px 11px, 0px 35px, -10px 60px }
+	75%, 100% {
+		background-position: -30px 11px, -30px 35px, -30px 60px;
+		opacity: 0;
+	}
+}

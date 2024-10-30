@@ -1,0 +1,44 @@
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.d-flex{
+	display: flex;
+}
+
+.float-right{
+	float: right;
+}
+
+.tinynotice {
+	position: absolute;
+	background: #666;
+	color: #fff;
+	padding: 2px 5px;
+	margin-left: 20px;
+}
+
+body.single-product .hidden-product-detail{
+	display: none;
+}
+
+#merchrcust-working{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	z-index: 9999;
+	
+	div{
+		padding: 50px;
+		background: #ffc;
+		font-size: 20px;
+		color: #000;
+	}
+}

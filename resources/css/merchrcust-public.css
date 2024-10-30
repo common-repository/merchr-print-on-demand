@@ -1,0 +1,411 @@
+@charset "UTF-8";
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Edit the SCSS files in resources, not this
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 0;
+  max-width: 100%;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.float-right {
+  float: right;
+}
+
+.tinynotice {
+  position: absolute;
+  background: #666;
+  color: #fff;
+  padding: 2px 5px;
+  margin-left: 20px;
+}
+
+body.single-product .hidden-product-detail {
+  display: none;
+}
+
+#merchrcust-working {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+#merchrcust-working div {
+  padding: 50px;
+  background: #ffc;
+  font-size: 20px;
+  color: #000;
+}
+
+.merchrcust-salespop {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  height: 5rem;
+  display: flex;
+  background: #eee;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+
+.merchrcust-salespop img {
+  height: 100%;
+  max-height: 100%;
+  width: auto;
+  margin-right: 1em;
+}
+
+#merchrcust_custom_block {
+  max-width: 768px;
+  margin: 0 auto 1em auto;
+}
+
+#merchrcust_custom_block_links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: center;
+}
+
+#merchrcust_custom_block_share {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+#merchrcust_custom_block label,
+#merchrcust_custom_block input,
+#merchrcust_custom_block p,
+#merchrcust_custom_block a {
+  margin: 0 0.5em;
+}
+
+#merchrcust_custom_block_dropdown {
+  margin-top: 1em;
+  padding: 1em;
+  border: 1px solid #666;
+  display: block;
+}
+
+#merchrcust_custom_block_title {
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+#merchrcust_custom_block_title p {
+  font-weight: bold;
+}
+
+body.single-product .storefront-breadcrumb .col-full.merchcust-has-share-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+body.single-product .storefront-breadcrumb .col-full.merchcust-has-share-button #merchcust-share-button {
+  margin-left: auto;
+  font-size: 14px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#cookie-law-div {
+  z-index: 10000000;
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+  padding: 1em;
+  max-width: 400px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  font-size: 15px;
+  box-shadow: rgba(23, 43, 99, 0.4) 0 7px 28px;
+}
+
+@media (max-width: 600px) {
+  #cookie-law-div {
+    border-radius: 0;
+    max-width: 100%;
+    right: 0;
+    bottom: 0;
+  }
+}
+#cookie-law-div a {
+  font-size: 15px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#cookie-law-div a:hover {
+  opacity: 0.7;
+}
+
+#cookie-law-div p {
+  margin: 0;
+  color: #000;
+  padding-right: 50px;
+}
+
+#cookie-law-div button {
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+  align-self: center;
+  line-height: 1;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  opacity: 0.6;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 999px;
+  padding: 4px 8px;
+  font-size: 1.5em;
+}
+
+#cookie-law-div button:hover {
+  opacity: 1;
+}
+
+#merchrcust-fields-loading {
+  padding: 1em;
+}
+
+#merchrcust-customisation-select {
+  display: flex;
+  padding: 0 1em 1em 0;
+}
+#merchrcust-customisation-select label {
+  margin-right: 1em;
+}
+
+.merchrcust-field-wrapper {
+  display: flex;
+  margin-bottom: 0.5em;
+}
+
+.merchrcust-field-wrapper .merchrcust-field-label {
+  margin-right: 1em;
+  min-width: 6.35em;
+}
+
+.merchrcust-field-wrapper .merchrcust-field-value {
+  flex: 1;
+}
+
+#merchrcust_custom_text_colors div {
+  display: flex;
+}
+
+#merchrcust_custom_text_colors div label {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  margin: 3px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+#merchrcust_custom_text_colors div label:after {
+  content: "";
+  display: block;
+  padding-top: 100%;
+  /* the percentage of y over x  */
+}
+
+#merchrcust_custom_text_colors input {
+  position: absolute;
+  left: -999px;
+}
+
+input.input-text.qty {
+  width: 5em;
+}
+#merchrcust-fields-wrapper {
+	border: 2px solid #666;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 30px;
+}
+#merchrcust-fields-wrapper #merchrcust_custom_image,
+#merchrcust-fields-wrapper #merchrcust_custom_image_whiteremove {
+	display: none!important;
+}
+.merchrcust-fields select,
+.merchrcust-fields input[type=text] {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  background: var(--global--color-background);
+  border: 1px solid #666;
+  width: 100%;
+  padding: 0.6em;
+  color: var(--global--color-primary);
+}
+
+.merchrcust-image-canvas-wrapper {
+  position: relative;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.merchrcust-image-canvas-wrapper img {
+  position: relative;
+}
+
+.merchrcust-overlay-canvas-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.merch-image-has-canvas .canvas-container {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.merch-image-has-canvas .canvas-container .upper-canvas {
+  display: none;
+}
+
+.img-checkerboard {
+  background: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none"  viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="5" height="5" fill="grey" /><rect x="5" y="5" width="5" height="5" fill="grey" /><rect x="5" y="0" width="5" height="5" fill="lightgrey" /><rect x="0" y="5" width="5" height="5" fill="lightgrey" /></svg>') 0 0/20px 20px;
+}
+
+.merchrcust-modal {
+  border: 0;
+  position: fixed;
+  top: 10%;
+  left: 5%;
+  width: 90%;
+  height: 80%;
+  z-index: 99999;
+  -webkit-box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.25);
+  background: #a0a0a0;
+}
+
+body.nobodyscroll {
+  overflow: hidden;
+}
+
+#merchrcust-white-removal-modal {
+  padding: 30px;
+}
+#merchrcust-white-removal-modal div.merchrcust-wrm-options {
+  text-align: center;
+}
+#merchrcust-white-removal-modal .merchrcust-rwm-image-wrapper {
+  padding: 20px;
+}
+
+@font-face {
+  font-family: "merchrcust";
+  src: url("fonts/merchrcust.eot?56bi90");
+  src: url("fonts/merchrcust.eot?56bi90#iefix") format("embedded-opentype"), url("fonts/merchrcust.ttf?56bi90") format("truetype"), url("fonts/merchrcust.woff?56bi90") format("woff"), url("fonts/merchrcust.svg?56bi90#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.merchrcust-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "merchrcust" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.merchrcust-icon-eye:before {
+  content: "";
+}
+
+.merchrcust-icon-truck:before {
+  content: "";
+}
+
+/*# sourceMappingURL=merchrcust-public.css.map */

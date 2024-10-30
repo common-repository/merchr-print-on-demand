@@ -1,0 +1,70 @@
+#merchrcust-fields-loading{
+	padding: 1em;
+}
+
+#merchrcust-customisation-select{
+	display: flex;
+	padding: 1em;
+	
+	label{
+		margin-right: 1em;
+	}
+}
+
+.merchrcust-field-wrapper{
+	display: flex;
+	margin-bottom: 0.5em;
+}
+
+.merchrcust-field-wrapper .merchrcust-field-label{
+	margin-right: 1em;
+	min-width: 5em;
+}
+
+.merchrcust-field-wrapper .merchrcust-field-value{
+	flex: 1;
+}
+
+#merchrcust_custom_text_colors{
+}
+
+#merchrcust_custom_text_colors div{
+	display: flex;
+}
+
+#merchrcust_custom_text_colors div label{
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	margin: 3px;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+
+#merchrcust_custom_text_colors div label:after{
+    content: "";
+    display: block;
+    padding-top: 100%; /* the percentage of y over x  */
+}
+
+#merchrcust_custom_text_colors input{
+	position: absolute; 
+	left: -999px;
+}
+
+input.input-text.qty{
+	width: 5em;
+}
+
+.merchrcust-fields select {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    background: var(--global--color-background);
+    border: 1px solid #666;
+    width: 100%;
+    padding: 0.6em;
+    color: var(--global--color-primary);
+}

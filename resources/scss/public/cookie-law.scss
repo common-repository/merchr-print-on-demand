@@ -1,0 +1,54 @@
+
+#cookie-law-div {
+    z-index: 10000000;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    padding: 1em;
+    max-width: 400px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, .15);
+    font-size: 15px;
+    box-shadow: rgba(23, 43, 99, .4) 0 7px 28px;
+}
+@media (max-width: 600px) {
+    #cookie-law-div {
+        border-radius: 0;
+        max-width: 100%;
+        right: 0;
+        bottom: 0;
+    }
+}
+#cookie-law-div a {
+    font-size: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+#cookie-law-div a:hover {
+    opacity: .7;
+}
+#cookie-law-div p {
+    margin: 0;
+    color: #000;
+    padding-right: 50px;
+}
+#cookie-law-div button {
+    position: absolute;
+    right: .5em;
+    top: .5em;
+    align-self: center;
+    line-height: 1;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    opacity: .60;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 999px;
+	padding: 4px 8px;
+	font-size: 1.5em;
+}
+#cookie-law-div button:hover {
+    opacity: 1;
+}

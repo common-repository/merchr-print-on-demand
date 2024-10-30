@@ -1,0 +1,81 @@
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Edit the SCSS files in resources, not this
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+.d-flex {
+  display: flex;
+}
+
+@media only screen and (min-width: 1600px) {
+  .d-flex-xxl-up {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .d-flex-xl-up {
+    display: flex;
+  }
+}
+#merchrcust-editproduct-preview {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  min-height: 500px;
+}
+
+#merchrcust-editproduct-preview img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+#merchrcust-editproduct-preview .canvas-container {
+  position: absolute !important;
+}
+
+/*# sourceMappingURL=merchrcust-admin.css.map */

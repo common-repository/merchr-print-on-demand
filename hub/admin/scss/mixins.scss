@@ -1,0 +1,46 @@
+$breakpoints: (
+  xs: 576px,
+  sm: 768px,
+  md: 992px,
+  lg: 1200px
+);
+
+@mixin respond-above($breakpoint) {
+
+  // If the breakpoint exists in the map.
+  @if map-has-key($breakpoints, $breakpoint) {
+
+    // Get the breakpoint value.
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+    // Write the media query.
+    @media (min-width: $breakpoint-value) {
+      @content;
+    }
+
+  // If the breakpoint doesn't exist in the map.
+  } @else {
+
+    // Log a warning.
+    @warn 'Invalid breakpoint: #{$breakpoint}.';
+  }
+}
+
+@mixin vendor-prefix($name, $value) {
+  @each $vendor in ('-webkit-', '-moz-', '-ms-', '-o-', '') {
+    #{$vendor}#{$name}: #{$value};
+  }
+}
+
+@mixin background-image($colour, $image, $right, $top, $size) {
+	background: #{$colour} url(#{$image}) no-repeat #{$right} #{$top};
+	@include vendor-prefix('background-size', #{$size});
+}
+
+@mixin background-gradient($colour-start, $colour-end, $gradient, $legacy-gradient, $type) {
+	background: #{$colour-start};
+	background: -moz-linear-gradient(#{$gradient}, #{$colour-start} 0%, #{$colour-end} 100%);
+	background: -webkit-linear-gradient(#{$gradient}, #{$colour-start} 0%, #{$colour-end} 100%);
+	background: linear-gradient(#{$legacy-gradient}, #{$colour-start} 0%, #{$colour-end} 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$colour-start}', endColorstr='#{$colour-end}', GradientType=#{$type});
+}
